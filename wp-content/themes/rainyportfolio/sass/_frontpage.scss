@@ -1,0 +1,118 @@
+/* Styling for frontpage.php
+****
+*/
+// .hero-wrapper{
+// 	height: 100vh;
+// 	position: relative;
+// }
+
+//Hero image
+.hero-content{
+	width: 100vw;
+	height: 100vh;
+}
+.hero-image{
+	background-image: url("../../assets/images/mainpage/hero.jpeg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 60%;
+}
+.hero-image{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+}
+.hero-text{
+	font: 1.2em 'bhavuka';
+	text-align: center;
+	margin: 0 auto;
+	background: #F7F7F7;
+	padding: 0 .2em;
+	height: 40%;
+	display: flex;
+	align-items: flex-end;
+}
+.hero-scroll{
+	text-align: center;
+	font: .75em 'skia';
+	width: 50%;
+	height: 30px;
+	background: transparent;
+	border: none;
+}
+
+//front page content
+.page-content{
+	margin: 0 auto;
+	text-align: center;
+	h2{
+		font: 2rem 'cambay';
+		margin:0;
+		padding: 3rem 0;
+	}
+}
+.fp-image-box{
+	width: 90%;
+	// display: flex;
+	// flex-direction: column;
+	// align-items: center;
+	// justify-content: center;
+	margin: 0 auto;
+}
+.fp-image-container{
+	margin: 0 auto;
+	padding-bottom: .5rem;
+	position: relative;
+	img{
+
+	}
+}
+.read-more-btn{
+	font: 1.25rem 'cambay';
+	background: transparent;
+	border: 1px solid black;
+	padding: 0 4rem;
+	margin: 1.5rem;
+}
+
+@media screen and (min-width: 40.5em){
+	.fp-image-box{
+		display: flex;	
+	}
+	.fp-image-container{
+		margin: 0;
+		padding: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		img{
+			width: 550px;
+			height: 368px;
+		}
+	}
+	.fp-mask{
+		opacity: 0;
+		overflow:visible;
+		transition: all 0.4s ease-in-out;
+		position: absolute;
+		
+	}
+	.fp-image-container:hover .fp-mask{
+		opacity: 0.7;
+		width: 95%;
+		height: 95%;
+		background: black;
+		top: 2.5%;
+		left: 2.5%;
+		right: 2.5%;
+		bottom: 2.5%;
+	}
+	.grid-2_xs-1{
+		.col-6_xs-12{
+			max-width: 550px;
+		}
+	}
+}

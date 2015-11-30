@@ -1,0 +1,74 @@
+/*--------------------------------------------------------------
+# Embedded Fonts
+--------------------------------------------------------------*/
+//Skia
+@font-face {
+    font-family: 'skia';
+    src: url('../../assets/fonts/skia-webfont.eot');
+    src: url('../../assets/fonts/skia-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../assets/fonts/skia-webfont.woff2') format('woff2'),
+         url('../../assets/fonts/skia-webfont.woff') format('woff'),
+         url('../../assets/fonts/skia-webfont.ttf') format('truetype'),
+         url('../../assets/fonts/skia-webfont.svg#skiaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+//rubik
+@font-face {
+    font-family: 'rubik';
+    src: url('../../assets/fonts/rubik-regular-webfont.eot');
+    src: url('../../assets/fonts/rubik-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../assets/fonts/rubik-regular-webfont.woff2') format('woff2'),
+         url('../../assets/fonts/rubik-regular-webfont.woff') format('woff'),
+         url('../../assets/fonts/rubik-regular-webfont.ttf') format('truetype'),
+         url('../../assets/fonts/rubik-regular-webfont.svg#rubikregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+//bhavuka
+@font-face {
+    font-family: 'bhavuka';
+    src: url('../../assets/fonts/bhavuka-regular-webfont.eot');
+    src: url('../../assets/fonts/bhavuka-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../assets/fonts/bhavuka-regular-webfont.woff2') format('woff2'),
+         url('../../assets/fonts/bhavuka-regular-webfont.woff') format('woff'),
+         url('../../assets/fonts/bhavuka-regular-webfont.ttf') format('truetype'),
+         url('../../assets/fonts/bhavuka-regular-webfont.svg#bhavukaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+//cambay
+@font-face {
+    font-family: 'cambay';
+    src: url('../../assets/fonts/cambay-regular-webfont.eot');
+    src: url('../../assets/fonts/cambay-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../assets/fonts/cambay-regular-webfont.woff2') format('woff2'),
+         url('../../assets/fonts/cambay-regular-webfont.woff') format('woff'),
+         url('../../assets/fonts/cambay-regular-webfont.ttf') format('truetype'),
+         url('../../assets/fonts/cambay-regular-webfont.svg#cambayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+//montserrat
+@font-face {
+    font-family: 'montserrat';
+    src: url('../../assets/fonts/montserrat-bold-webfont.eot');
+    src: url('../../assets/fonts/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../assets/fonts/montserrat-bold-webfont.woff2') format('woff2'),
+         url('../../assets/fonts/montserrat-bold-webfont.woff') format('woff'),
+         url('../../assets/fonts/montserrat-bold-webfont.ttf') format('truetype'),
+         url('../../assets/fonts/montserrat-bold-webfont.svg#montserratbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'montserrat';
+    src: url('../../assets/fonts/montserrat-regular-webfont.eot');
+    src: url('../../assets/fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../assets/fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../../assets/fonts/montserrat-regular-webfont.woff') format('woff'),
+         url('../../assets/fonts/montserrat-regular-webfont.ttf') format('truetype'),
+         url('../../assets/fonts/montserrat-regular-webfont.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

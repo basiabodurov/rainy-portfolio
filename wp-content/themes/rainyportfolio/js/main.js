@@ -1,0 +1,3 @@
+/*
+*Removing div in mobile
+*/
