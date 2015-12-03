@@ -22,19 +22,35 @@ get_header(); ?>
 	<div class="fp-image-box grid-2_xs-1">
 		<div class="fp-image-container col-6_xs-12">
 			<img src="<?php echo get_template_directory_uri();?>/assets/images/mainpage/fp-ubo.jpg"/>
-			<div class="fp-mask"></div>
+			<div class="fp-mask">
+				<p>eCommerce Redesign</p>
+				<h3>Urban Body Organics</h3>
+				<button class="white-border-btn">Case Study</button>
+			</div>
 		</div>
 		<div class="fp-image-container col-6_xs-12">
-			<img src="<?php echo get_template_directory_uri();?>/assets/images/mainpage/fp-plants.jpg"/>
-			<div class="fp-mask"></div>
+			<img src="<?php echo get_template_directory_uri();?>/assets/images/mainpage/fp-garden.png"/>
+			<div class="fp-mask">
+				<p>Coming Soon</p>
+				<h3>Coming Soon</h3>
+				<button class="white-border-btn">Coming Soon</button>
+			</div>
 		</div>
 		<div class="fp-image-container col-6_xs-12">
 			<img src="<?php echo get_template_directory_uri();?>/assets/images/mainpage/fp-opentable.jpg"/>
-			<div class="fp-mask"></div>
+			<div class="fp-mask">
+				<p>eCommerce Redesign</p>
+				<h3>OpenTable</h3>
+				<button class="white-border-btn">Case Study</button>
+			</div>
 		</div>
 		<div class="fp-image-container col-6_xs-12">
-			<img src="<?php echo get_template_directory_uri();?>/assets/images/mainpage/fp-camping.jpg"/>
-			<div class="fp-mask"></div>
+			<img src="<?php echo get_template_directory_uri();?>/assets/images/mainpage/fp-camping.png"/>
+			<div class="fp-mask">
+				<p>eCommerce Redesign</p>
+				<h3>MEC</h3>
+				<button class="white-border-btn">Case Study</button>
+			</div>
 		</div>
 	</div>
 	<button class="read-more-btn">Read More</button>
