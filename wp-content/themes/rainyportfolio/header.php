@@ -26,7 +26,9 @@
 				<div class ="empty col-5_xs-12">
 				</div>
 				<div class="logo col-2_xs-12">
-					<img class="navlogo" src="<?php echo get_template_directory_uri();?>/assets/images/logo.png">
+					<a href="<?php echo esc_url(home_url('/')); ?>">
+						<img class="navlogo" src="<?php echo get_template_directory_uri();?>/assets/images/logo.png">
+					</a>
 					<p>Rainy Jiang</p>
 				</div>
 				<div class="navbtns col-5_xs-12">

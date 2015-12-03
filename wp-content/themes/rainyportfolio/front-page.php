@@ -8,16 +8,18 @@
 get_header(); ?>
 
 <!--body of front page-->
+<div id="under-nav"></div>
 <section class="hero-content">
 	<div class="hero-text">
 		<p>Rainy is a 23-year-old UX designer based in Vancouver BC, where she studies, lives and enjoy good coffee.</p>
 	</div>
 	<div class="hero-image">
-		<button class="hero-scroll">Scroll down to see my work</button>
-	</div>
+		<a href="#hero-scroll-dest" class="smoothScroll hero-scroll">Scroll down to see my work</a>
+	</div></a>
 </section>
 
 <section class="page-content">
+	<a class="hero-scroll-dest" name="hero-scroll-dest"></a>	
 	<h2 class="fp-title">My Works</h2>
 	<div class="fp-image-box grid-2_xs-1">
 		<div class="fp-image-container col-6_xs-12">

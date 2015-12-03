@@ -1,6 +1,13 @@
+<?php
+/**
+ Template Name: about page template
+ *
+ * @package Rainy's Portfolio
+ */
+ ?>
 <?php get_header(); ?>
 
-
+<div id="under-nav"></div>
 <div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
 
@@ -9,16 +16,11 @@
 
 			<?php while ( have_posts() ) : the_post(); ?>
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-			<header class="entry-header">
-			<?php endif; ?>
-				<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
+				<div class="about-content">
+					<?php the_content(); ?>
+					<button class="resume-btn"><a href="path_to_file" download="proposed_file_name">Check Her Resume</a></button>
+				</div><!-- .about-content -->
 
-					<?php if ( 'post' === get_post_type() ) : ?>
-					<?php endif; ?>
-				</header><!-- .entry-header -->
-				<div class="entry-content">
-					<?php the_excerpt(); ?>
-				</div><!-- .entry-content -->
 			</article><!-- #post-## -->
 
 			<?php endwhile; ?>

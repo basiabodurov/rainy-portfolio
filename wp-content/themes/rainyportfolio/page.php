@@ -6,8 +6,11 @@
  */
 
 get_header(); ?>
-
+	<div id="under-nav"></div>
 	<div id="primary" class="content-area">
+		<div class="contact-hero-image">
+			<a href="#hero-scroll-dest" class="smoothScroll hero-scroll">Contact Me</a>
+		</div>
 		<main id="main" class="site-main" role="main">
 
 			<?php while ( have_posts() ) : the_post(); ?>
@@ -19,5 +22,3 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
