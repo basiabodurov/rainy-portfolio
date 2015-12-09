@@ -1,27 +1,25 @@
 /* Styling for about.php
 ****
 */
-
-.about-content{
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-	align-items: center;
-	height: 100%;
-	width: 80%;
-	margin: 0 auto;
-	padding-top: 2rem;
-
-	p{
-		font: 1rem 'cambay';
-	}
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  p {
+    font: 1rem 'cambay';
+  }
 }
-.resume-btn{
-	background: transparent;
-	width: 200px;
-	height: 45px;
-	a{
-		text-decoration: none;
-		font: 1rem 'montserrat';
-	}
+.resume-btn {
+  background: transparent;
+  width: 200px;
+  height: 45px;
+  a {
+    text-decoration: none;
+    font: 1rem 'montserrat';
+  }
 }

@@ -1,54 +1,50 @@
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
-.site-content{
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-
+.site-content {
+  display: flex;
+  flex-direction: column;
 }
-.entry-content{
-	margin: 0;
+.entry-content {
+  margin: 0;
 }
-.hentry{
-	margin: 0;
+.hentry {
+  margin: 0;
 }
-.content-area{
-	width: 100%;
+.content-area {
+  width: 100%;
 }
-.contact-hero-image{
-	background: url('../../assets/images/mainpage/contact.jpeg');
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 30vh;
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: flex-end;
-	h3{
-		position: absolute;
-		top: 14rem;
-		left: 3rem;
-	}
-	#contact-me-text-1, #contact-me-text-2{
-		display: none;
-	}
+.contact-hero-image {
+  background: url(../../assets/images/mainpage/contact.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  h3 {
+    position: absolute;
+    top: 14rem;
+    left: 3rem;
+  }
+  #contact-me-text-1,
+  #contact-me-text-2 {
+    display: none;
+  }
 }
-
-
-@media screen and (min-width: 40.1rem){
-	.contact-hero-image{
-		background-size: cover; 
-		height: 75vh;
-	}
-	.content-area{
-
-	}
-	.site-main{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
+@media screen and (min-width: 40.1rem) {
+  .contact-hero-image {
+    background-size: cover;
+    height: 75vh;
+  }
+  .content-area {}
+  .site-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
